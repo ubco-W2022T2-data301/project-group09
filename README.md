@@ -1,4 +1,4 @@
-# Group YY - {Short snappy Title of your project}
+# Group 09 - {Short snappy Title of your project}
 
 - Your title can change over time.
 
@@ -16,7 +16,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Team Members
 
-- Person 1: one sentence about you!
+- Om Mistry: I am a Second year Computer Science Major and I am really  interested in Web Development and AI.
 - Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
