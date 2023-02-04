@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 - Om Mistry: I am a Second year Computer Science Major and I am really  interested in Web Development and AI.
 - Devstutya Pandey: I am a Second year student majoring in Computer Science (will add more)
-- Person 3: one sentence about you!
+- Lakshay Dang: I am a second Year Comp-Sci student and often contemplate my existence and place in the world.
 
 ## Images
 
