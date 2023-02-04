@@ -17,8 +17,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 ## Team Members
 
 - Om Mistry: I am a Second year Computer Science Major and I am really  interested in Web Development and AI.
-- Devstutya Pandey: I am a Second year student majoring in Computer Science and I find game development and Artificial Intelligence really fascinating.
-- Person 3: one sentence about you!
+- Devstutya Pandey: I am a Second year student majoring in Computer Science (will add more)
 
 ## Images
 
