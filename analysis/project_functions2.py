@@ -8,8 +8,18 @@ def import_lib():
     import numpy as np
     import matplotlib.pyplot as plt
     import seaborn as sns
+        
     
 
 def load(path):
-    raw_data = pd.read_csv(path)
+    raw_data = pd.read_csv(path)    
+    
+    df = (raw_data.drop(['Unnamed: 0', 'hispanic', 'place', 'police'],axis=1)
+        .loc[raw_data.intent == "Homicide"]
+        .reset_index()            
+    )      
+       
+    return df
+
+    
     
