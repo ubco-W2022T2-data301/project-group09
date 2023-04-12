@@ -29,3 +29,16 @@ def load_and_process(path):
              )
 
     return df_cleaned
+
+def load_for_dashboard(path):
+    data = pd.read_csv(path)
+    
+    
+    df_cleaned = (data.drop(columns = [data.columns[0], 'hispanic', 'police'])
+              .loc[data.intent == "Suicide"]
+              .reset_index()
+              .drop(columns = 'index')
+              .dropna()
+             )
+    
+    
