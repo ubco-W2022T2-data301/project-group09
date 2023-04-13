@@ -21,6 +21,8 @@ The following are a few sub questions that helped me achieve my objectives:
 - To what extent does the knowledge of gun safety or ownership meditate the relationship between gun deaths and education ? This could be monitored by using the "intent" column of the dataset.
 - Are there differences in the relationship between education and gun deaths across different age groups, race, or geographical regions? We could explore whether the protective effects of education are stronger for younger or elder individuals for certain racial groups.
 
+If you are interested in looking at the entire analysis , you can click [here](https://github.com/ubco-W2022T2-data301/project-group09/blob/main/analysis/analysis1.ipynb)
+
 ![Figure1](images//RQ1_img1.png)
 
 Figure 1: Education v/s Intent graph for Gun Deaths in America
@@ -44,4 +46,5 @@ The age group of 20-80 years old have the highest probability of dying i their h
 
 
 
-**Summary/Conclusion**: A brief paragraph that highlights your key results and what you learned from doing this project.
+## Conclusion 
+
