@@ -5,8 +5,15 @@ Our Group Project aims to explore the issue of Gun Deaths in America , which has
 
 
 ## Exploratory Data Analysis
+- Below is a Heatmap that shows the correlation between the numeric columns particularly age, police involved, month anf year, and taking a look at them.
 
-**Exploratory Data Analysis**: A summary of the highlights of your EDA, where you can show some visualizations of the exploratory data analysis your group did.
+![EDA_1](images//EDA(1).png)
+
+- Below is a violin plot that shows us how education, race and intent are related to gun deaths and if any trends are visible to us.  
+
+![EDA_2](images//EDA(2).png)
+
+
 
 **Question 1 + Results**: Clearly state your research question, and include 2-3 visualizations that helped you answer your research question. You can create multi-panel figures, but each of your visualizations must speak directly to your research question, and any insights you were able to get from it should be clearly articulated in the figure caption/description.
 
