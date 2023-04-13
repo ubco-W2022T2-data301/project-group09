@@ -14,12 +14,23 @@ def import_lib():
 def load(path):
     raw_data = pd.read_csv(path)    
     
-    df = (raw_data.drop(['Unnamed: 0', 'hispanic', 'place', 'police'],axis=1)
+    df = (raw_data.drop(['Unnamed: 0', 'hispanic', 'place'],axis=1)
         .loc[raw_data.intent == "Homicide"]
-        .reset_index()            
+        .drop(['police'])
+        .reset_index()                   
     )      
-       
+           
     return df
+
+def load1(path):
+    raw_data = pd.read_csv(path)
+    df1 = (raw_data.drop(['Unnamed: 0', 'hispanic', 'place', 'police'],axis=1)
+        .loc[raw_data.intent == "Homicide"]
+        .drop(['education'])
+        .reset_index()                    
+    )      
+           
+    return df1
 
     
     
