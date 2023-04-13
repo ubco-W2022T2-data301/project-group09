@@ -43,5 +43,45 @@ Figure 3: Age v/s Place of Death Heatmap
 The age group of 20-80 years old have the highest probability of dying i their homes as compared to any other places.We can also see that the younger population (specifically in the age groups of 20-40 years) also have records of death on the streets and some other unspecified locations which shows how unsafe it is for them outside.
 
 
+## RESEARCH QUESTION 2:
+**To what extent are the gun violence incidents classified as homicides affected by demographic factors ?**
+
+For full analysis, click [here](https://github.com/ubco-W2022T2-data301/project-group09/blob/main/analysis/analysis2.ipynb)
+
+Sub questions:
+1. What relation do gun violence incidents that are classified as homicides (we can see this in the 'intent' column) have with demographic factors (specifically age, race and sex)? This sub-question will have 3 parts and will be explored while keeping other factors such as education and location constant. The three parts will be:
+    - What relation do gun violence incidents that are classified as homicides (we can see this in the 'intent' column) have with the age of the perpetrator?
+    - What relation do gun violence incidents that are classified as homicides have with the race of the perpetrator?
+    - What relation do gun violence incidents that are classified as homicides have with the sex of the perpetrator?
+    
+
+
+2. How is the relation between homicides and demographics affected by differing education? For this sub question, we will be using the 'education column' to look into how the initially explored relation between homicides and demographics can vary with the education of the perpetrator. Will a less educated individual be more likely to be involved in a homicide? 
+
+![Figure1](images//RQ2_img1.png)
+
+
+From the above graphs, we can see the various trends that directly answer our first sub-question. 
+1. We can see a distinct pattern from the leftmost plot above, the highest number of homicides are being perpetrated by those between the ages of 20 and 40. 
+2. From the plot in the middle, we can see that the highest number of homicides are perpetrated by the Black race, and 'White' is following up in second. 
+3. From the plot on the right we can see that gun violence incidents classified as homicides occur significantly more when a male is involved, when compared to a female. 
+
+Next we went into slighlty more complex visualisations to factor in Education for our second sub question. 
+
+![Figure 2](images//RQ2_img2.png)
+
+
+From this graph we can see even though, overall the black race had the highest number of homicides, when education is brought into the frame the numbers change drastically. When a person has education of HS/GED or college education, white people are generally more involved in homicides. However when observing more carefully, the black race has a higher density of homicides around the ages of 20, when compared to any other race.
+Nonetheless, this shows that on average or in general the black race will not be as involved once education is taken into consideration, and education definitely influences the likelihood of being involved in homicides.
+
+
+![Figure 2](images//RQ2_img3.png)
+
+Through this second graph we can see that when education is put into consideration, the male sex can in general be involved more in homicides if they are in the education categories -"HS/GED", "Less than HS" or "Some College". However, it does seem much closer in the categories of 'Less than high school' and 'Some college', hinting towards the fact that a lower level of education will directly corelate with a higher number of homicides(especially in the age range of 20-40)
+
+
+
+
+
 
 **Summary/Conclusion**: A brief paragraph that highlights your key results and what you learned from doing this project.
