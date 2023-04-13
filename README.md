@@ -22,7 +22,7 @@ The interactive website created from the dataset allows for easy data exploratio
 ## Team Members
 
 - Om Mistry: I am a Second year Computer Science Major and I am really  interested in Web Development and AI.
-- Devstutya Pandey: I am a Second year student majoring in Computer Science (will add more)
+- Devstutya Pandey: I am a Second year student majoring in Computer Science 
 - Lakshay Dang: I am a second Year Comp-Sci student and often contemplate my existence and place in the world.
 
 ## Images

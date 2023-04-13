@@ -13,12 +13,32 @@ Our Group Project aims to explore the issue of Gun Deaths in America , which has
 
 ![EDA_2](images//EDA(2).png)
 
+## RESEARCH QUESTION 1:
+*How does Educational attainment relate to gun deaths in America and what other factors affect this relationship ?*
+
+The following are a few sub questions that helped me achieve my objectives:
+- Is there a correlation between educational attainment and gun deaths rates in the United States after controlling for other demographic and contextual factors, such as age, gender, race, religion and gun ownership rates ? This could be done using regression analysis to examine the contribution of education while keeping the other factors constant.
+- To what extent does the knowledge of gun safety or ownership meditate the relationship between gun deaths and education ? This could be monitored by using the "intent" column of the dataset.
+- Are there differences in the relationship between education and gun deaths across different age groups, race, or geographical regions? We could explore whether the protective effects of education are stronger for younger or elder individuals for certain racial groups.
+
+![Figure1](images//RQ1_img1.png)
+Figure 1: Education v/s Intent graph for Gun Deaths in America
+
+- In the above graph we have decreased the number of record taken into account to clearly see how high the rate of suicide and homicide is as compared Accidental or Undetermined deaths.
+- We can also notice that people with education of BA+ have really low rates of deaths irrespective of the intent whereas people with Some college , HS or less than HS education have comparatively higher rates of deaths.
+- In each intent type, people HS education have highest rates of deaths and then some college , less than HS and then BA+ respectively. But Homicide has a different trend where less than HS education people have second highest rates of deaths compared to the others.
+
+![Figure2](images//RQ1_img2.png)
+Figure 2: Age v/s Education graph based on different intents of Gun Deaths
+
+The above graph suggests that there is a correlation between education level and age with the likelihood of experiencing premature death by suicide or homicide. Individuals with a higher education level have a lower chance of dying at an early age compared to those with a high school education or lower. People with any education level are more likely to commit suicide at an older age, and homicides are more likely to involve younger individuals, particularly those with a less school education.
 
 
-**Question 1 + Results**: Clearly state your research question, and include 2-3 visualizations that helped you answer your research question. You can create multi-panel figures, but each of your visualizations must speak directly to your research question, and any insights you were able to get from it should be clearly articulated in the figure caption/description.
+![Figure3](images//RQ1_img3.png)
+Figure 3: Age v/s Place of Death Heatmap 
 
-**Question 2 + Results**: Same as above.
+The age group of 20-80 years old have the highest probability of dying i their homes as compared to any other places.We can also see that the younger population (specifically in the age groups of 20-40 years) also have records of death on the streets and some other unspecified locations which shows how unsafe it is for them outside.
 
-**Question 3 + Results**: Same as above.
+
 
 **Summary/Conclusion**: A brief paragraph that highlights your key results and what you learned from doing this project.
