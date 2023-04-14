@@ -87,6 +87,8 @@ Through this second graph we can see that when education is put into considerati
 ## Research Question 3:
 **How do the number of gun-related suicides commited in the US differ when talking about demographic variebles like age, sex, race, and type of location?**
 
+For a full analysis click [here](https://github.com/ubco-W2022T2-data301/project-group09/blob/main/analysis/analysis3.ipynb)
+
 Sub problems:
 
 - How does the suicide rate vary with different age groups (For eg. rate for people 13-19, 20-40, and 40 above)?
