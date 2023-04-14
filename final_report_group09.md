@@ -13,6 +13,9 @@ Our Group Project aims to explore the issue of Gun Deaths in America , which has
 
 ![EDA_2](images//EDA(2).png)
 
+- Below is a violin plot that shows us how the number of gun-related suicides differ in terms of sex and race.
+
+![EDA_3](screenshots/graph.png)
 ## RESEARCH QUESTION 1:
 *How does Educational attainment relate to gun deaths in America and what other factors affect this relationship ?*
 
@@ -81,6 +84,64 @@ Nonetheless, this shows that on average or in general the black race will not be
 
 Through this second graph we can see that when education is put into consideration, the male sex can in general be involved more in homicides if they are in the education categories -"HS/GED", "Less than HS" or "Some College". However, it does seem much closer in the categories of 'Less than high school' and 'Some college', hinting towards the fact that a lower level of education will directly corelate with a higher number of homicides(especially in the age range of 20-40)
 
+## Research Question 3:
+**How do the number of gun-related suicides commited in the US differ when talking about demographic variebles like age, sex, race, and type of location?**
+
+Sub problems:
+
+- How does the suicide rate vary with different age groups (For eg. rate for people 13-19, 20-40, and 40 above)?
+
+We graph the number of suicides against the age of the victims and get the following graph:
+
+![ageplot](screenshots/ageplot3.png)
+
+From the graph, we see that:
+
+The age group 50 - 60 had the most incidents of gun-related suicides
+Teens (< 20 years) were involved in surprisingly little gun-related suicide incidents as compared to people in older age groups
+It is also important to note that even though there may seem like a decline in the number of suicides between the ages 25-35, this is not that significant of a decline since there is only a difference of less than 500 cases over the span of two years (2012 - 2014).
+
+Next we move on to:
+- Is there a significant difference between the number of Black and Hispanic teenagers and young adults that commit gun-related suicide and the number of White people belonging to the same age group?
+
+We achieve this by isolating victime that belong to White, Black, or Hispanic communities and looking at the distribution in terms of age. We get the following graph:
+
+![](screenshots/3races.png)
+
+We see that there is quite a big disparity between gun-related suicides among White young adults vs Black and Hispanic young adults.
+
+We also see that this plot is limited in terme of age i.e. it only looks at record upto age 30. What if we look beyond age 30?
+
+![](screenshots/allraces.png)
+
+We now see that the peak for the data for white victims is at around 50 yrs, while the peak for Black and Hispanic victime is **much younger**, being around 20 yrs.
+
+Next we move to the question:
+
+- Is there a correlation betwen a person's age and the type of location that they commit suicide?
+
+We achieve the following plot by plotting the distribution in terms of age, and spitting it into multiple graphs for each of the different location variables. On overlaying the split graphs, we get:
+
+![](screenshots/place.png)
+
+We see that generally more street suicides involve younger victims, while suicides in places of work (Farms, Industrial areas) involve older victims.
+
+Another interesting thing that the plot tells us is that a majority of victims aged above 70 commit a gun-related suicide in residential institutions.
+
+Finally, let's consider the role of education and how it affects our data.
+
+- Is there a correlation between educational status and suicide rate? Does this correlation change when we factor in race?
+
+Now, it is important to note that a huge majority of cases in this databases involve white victims, which can sometimes make it harder to look at data involving victims of minroty groups. Therefore, it seems best to look past white victims in order to find hidden trends in our data.
+
+We thus get the graph:
+
+![](screenshots/education.png)
+
+We note that:
+- The second largest majority of suicide victims in our dataset are Black.
+- A majority of gun-related suicide victims are High School graduates.
+- In the Asian community, more college graduates than high school graduates commit gun-related suicide, which is not the case for any other racial group.
 
 
 
